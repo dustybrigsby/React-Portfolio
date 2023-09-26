@@ -63,9 +63,6 @@ Used the references and tutorials from:
 - [MDN Web Docs: Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [MDN Web Docs: Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Request)
 - [W3 Schools](https://www.w3schools.com/mysql/default.asp)
-- [webpack documentation](https://webpack.js.org/concepts/)
-- [idb documentation](https://www.npmjs.com/package/idb)
-- [Workbox documentation](https://developer.chrome.com/docs/workbox)
 
 <a name="test"></a>
 

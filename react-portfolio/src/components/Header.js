@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Navigation from './Navigation';
-import { Box, Grid, Typography } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 
 const Header = ({ currentSection, setCurrentSection }) => {
     return (

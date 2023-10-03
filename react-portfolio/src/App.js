@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
+import Form from "./components/Form";
 import {
   Box,
   Grid,
@@ -17,11 +18,6 @@ function App() {
   const [currentSection, setCurrentSection] = useState("Portfolio");
 
   const defaultTheme = createTheme();
-
-  // const projects = [
-  //   // Add projects here
-  //   // { image: 'path_to_image', title: 'Project1', deployedLink: 'link', githubLink: 'link' },
-  // ];
 
   return (
     <ThemeProvider theme={defaultTheme}>
@@ -47,10 +43,10 @@ function App() {
           }}
         >
           {currentSection === "About Me" && (
-            <section>
+            <Box>
               <img src="path_to_avatar" alt="Developer Avatar" />
               <p>Short bio about the developer</p>
-            </section>
+            </Box>
           )}
 
           {currentSection === "Portfolio" && (
@@ -62,7 +58,7 @@ function App() {
           )}
 
           {currentSection === "Contact" && (
-            <section>{/* Add contact form here */}</section>
+            <Form />
           )}
 
           {currentSection === "Resume" && (

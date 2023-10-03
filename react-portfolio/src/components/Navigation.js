@@ -21,7 +21,7 @@ const Navigation = ({ currentSection, setCurrentSection }) => {
                     <Typography variant='h5' key={section}>
                         <Link
                             variant='inherit'
-                            underline={currentSection === section ? 'none':'hover'}
+                            underline={currentSection === section ? 'always':'hover'}
                             color={currentSection === section ? 'primary.light':'primary.dark'}
                             href={`#${section.toLowerCase().replace(' ', '-')}`}
                             onClick={() => setCurrentSection(section)}

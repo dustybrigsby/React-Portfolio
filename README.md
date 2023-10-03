@@ -26,9 +26,9 @@ Create a portfolio using your new React skills, which will help set you apart fr
 
 ## Installation
 
-- [NodeJS v16.18.0](https://nodejs.org/dist/v16.18.0/node-v16.18.0-x64.msi) recommended
+- [NodeJS v16.18.0](https://nodejs.org/dist/v16.18.0/node-v16.18.0-x64.msi)
 - [webpack](https://www.npmjs.com/package/webpack)
-- [IndexedDB with usability](https://www.npmjs.com/package/idb)
+- [Material UI](https://mui.com/material-ui/getting-started/)
 - [CodeMirror Themes](https://www.npmjs.com/package/code-mirror-themes)
 
 While in the root directory of the application, enter "npm install" into the terminal.
@@ -43,7 +43,7 @@ While in the root directory of the application, enter "npm install" into the ter
 
 ## Screenshot
 
-<!-- [![Screenshot](./assets/social-media-api-screenshot.png)](https://youtu.be/evLlLyxbt3Y?si=d8PkWpoYemyEW3MN) -->
+[Screenshot](./assets/images/portfolio.png)
 
 <a name="license"></a>
 

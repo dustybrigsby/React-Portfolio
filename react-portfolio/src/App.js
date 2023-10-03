@@ -3,7 +3,8 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
-import Form from "./components/Form";
+import Contact from "./components/Contact";
+import About from "./components/About";
 import {
   Box,
   Grid,
@@ -43,10 +44,7 @@ function App() {
           }}
         >
           {currentSection === "About Me" && (
-            <Box>
-              <img src="path_to_avatar" alt="Developer Avatar" />
-              <p>Short bio about the developer</p>
-            </Box>
+            <About />
           )}
 
           {currentSection === "Portfolio" && (
@@ -57,9 +55,7 @@ function App() {
             </Grid>
           )}
 
-          {currentSection === "Contact" && (
-            <Form />
-          )}
+          {currentSection === "Contact" && <Contact />}
 
           {currentSection === "Resume" && (
             <section>

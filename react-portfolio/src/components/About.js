@@ -1,13 +1,22 @@
-import { Image, Container, Typography } from "@mui/material";
+import { Container, Typography, Box } from "@mui/material";
+import profileImage from "../assets/images/profile.jpg";
 
 const About = () => {
   return (
     <Container maxWidth="sm">
-      <Image
-        src="../assets/images/profile.jpg"
-        alt="Web developer Dusty Brigsby smiling."
-        
-      />
+      <Box display="flex" justifyContent="center" marginBottom="70px">
+        <Box
+          component="img"
+          src={profileImage}
+          alt="Web developer Dusty Brigsby smiling."
+          minWidth="200px"
+          sx={{
+            width: "50%",
+            alignSelf: "center",
+            justifySelf: "center",
+          }}
+        />
+      </Box>
       <Typography>
         Dusty Brigsby, a proud native of Fargo, ND, has worn many hats
         throughout his life. Starting with an honorable stint in the Navy as an
@@ -27,8 +36,3 @@ const About = () => {
 };
 
 export default About;
-
-// React-Portfolio\react-portfolio\src\assets\images\profile.jpg
-// React-Portfolio\react-portfolio\src
-// React-Portfolio\react-portfolio\src\components\About.js
-// C:\Users\dusty\Bootcamp\Challenges\React-Portfolio\react-portfolio\src\assets\images\profile.jpg

@@ -11,7 +11,7 @@ import {
 
 const Project = ({ project }) => {
   return (
-    <Grid item key={project} xs={12} sm={6} md={4}>
+    <Grid item key={project} xs="12" sm="6" md="4">
       <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
         <Link href={project.deployedLink}>
           <CardMedia

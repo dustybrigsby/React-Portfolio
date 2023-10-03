@@ -3,6 +3,7 @@ import edtechImage from "./assets/images/EdTech-dashboard.png";
 import techblogImage from "./assets/images/techBlog.png";
 import employeeImage from "./assets/images/employeeTrackerScreenshot.png";
 import weatherImage from "./assets/images/weather-dashboard.png";
+import schedulerImage from "./assets/images/screenshot.png";
 
 const projects = [
   {
@@ -35,6 +36,13 @@ const projects = [
     title: "Weather Tracker",
     description: "Displays the current weather as well as the 5-day forecast for the user entered city name.",
     githubLink: "https://github.com/dustybrigsby/Weather-Dashboard",
+  },
+  {
+    image: schedulerImage,
+    title: "Work Day Scheduler",
+    description: "Displays daily task by the hour of the day.",
+    githubLink: "https://github.com/dustybrigsby/Work-Day-Scheduler",
+    deployedLink: "https://dustybrigsby.github.io/Work-Day-Scheduler",
   },
 ];
 

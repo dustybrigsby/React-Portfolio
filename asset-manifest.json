@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/React-Portfolio/static/js/main.5219fe76.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/CampAire-main.png": "/React-Portfolio/static/media/CampAire-main.0310960cc225ab4bef40.png",
+    "static/media/profile.jpg": "/React-Portfolio/static/media/profile.4ed9273a6c096dc409b4.jpg",
+    "static/media/EdTech-dashboard.png": "/React-Portfolio/static/media/EdTech-dashboard.a68d48cc3b6e980de68c.png",
+    "static/media/techBlog.png": "/React-Portfolio/static/media/techBlog.503d7cdad9a143a349ab.png",
+    "static/media/employeeTrackerScreenshot.png": "/React-Portfolio/static/media/employeeTrackerScreenshot.1cb88c6cb511d6b6a8ba.png",
+    "static/media/weather-dashboard.png": "/React-Portfolio/static/media/weather-dashboard.687f91f7a362416081f0.png",
+    "static/media/screenshot.png": "/React-Portfolio/static/media/screenshot.16e1d915ac223241026b.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.5219fe76.js.map": "/React-Portfolio/static/js/main.5219fe76.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5219fe76.js"
+  ]
+}

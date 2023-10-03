@@ -43,7 +43,7 @@ While in the root directory of the application, enter "npm install" into the ter
 
 ## Screenshot
 
-[Screenshot](./assets/images/portfolio.png)
+[![Screenshot](./assets/images/portfolio.png)](https://dustybrigsby.github.io/React-Portfolio/)
 
 <a name="license"></a>
 
